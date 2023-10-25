@@ -21,7 +21,7 @@
     "useDefineForClassFields": false,
     "strictPropertyInitialization": false,
     "lib": [
-      "ES2020",
+      "ES2022",
       "dom"
     ]
   },
