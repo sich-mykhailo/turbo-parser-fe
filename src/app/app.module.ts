@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import {HeaderComponent} from "./shared/components/header/header.component";
+import {RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {HeaderComponent} from "./shared/components/header/header.component";
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
